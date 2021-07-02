@@ -108,6 +108,29 @@
           </ul>
       </section>
       <section class="sections">
+            <span class="fa-stack fa-lg icons">
+              <i class="far fa-circle fa-stack-2x"></i>
+              <i class="fas fa-code fa-stack-1x"></i>
+          </span>
+          <h2>Code examples</h2>
+
+          <pre class="code"><code>
+            function digital_root(n) {
+              let <var>sum</var> = 0;
+              let <var>digits</var> = [];
+              let <var>num</var> = n.toString();
+              for (let i = 0; i < num.length; i++) {
+                digits.push(Number(num[i]));
+                sum += digits[i];
+              }
+              if (sum > 9) {
+                sum = digital_root(sum);
+              } 
+              return sum;
+            }
+          </code></pre>
+      </section>
+      <section class="sections">
           <span class="fa-stack fa-lg icons">
               <i class="far fa-circle fa-stack-2x"></i>
               <i class="fas fa-globe fa-stack-1x"></i>
@@ -117,6 +140,7 @@
           </p>
       </section>
   </main>
+
 </div>
 </body>
 
