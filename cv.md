@@ -49,9 +49,23 @@ I am currently working as a teacher. I took the first step towards my goal - I q
 </script>
 
 ```
-
 ## Experience
 
 - Codeacademy;
 - HTML Academy;
 - Сonstantly go through online training, read books on front-end development.
+
+## Education
+
+- March 2019 - present **IT-Class courses**:
+  - C language, introduction to the basics of programming;
+  - Basics of web-programming (HTML, CSS, PHP, JS);
+  - Introduction to Object Oriented Programming;
+  - Database Theory.
+- September 2018 - present **Gomel State Technical University, Institute for Advanced Studies and Retraining**, programmer - Web-designer
+- 2008-2011 **Mozyr State Pedagogical University**, teacher.
+- 2001-2005 **Gomel State Pedagogical College**, teacher.
+
+## English
+
+My English level is now - **A2**. I am currently studying at SkyEng to improve my language skills.
