@@ -18,15 +18,15 @@
     <header class="main-header">
         <div class="title-container">
         <h1>Tatsiana Tsakunova</h1>
-        <p>graphich and web designer</p>
+        <p>front-end developer</p>
     </div>
     </header>
     <aside class="info-nav">
         <figure>
             <img src="images/photo.jpg" alt="photo" class="cv-photo">
         </figure>
-        <div>
-            <h2>Info</h2>
+        <div class="none">
+            <h2 class="info">Info</h2>
             <ul class="fa-ul">
                 <li><i class="fa-li fas fa-user"></i><span class="ul-contact"> Name</span><br> Tatsiana Tsakunova
                 </li>
@@ -35,10 +35,10 @@
                         href="mailto:tv.tsakunova@gmail.com">tv.tsakunova@gmail.com</a> </li>
             </ul>
         </div>
-        <div>
+        <div class="none">
             <h2>Social</h2>
             <ul class="fa-ul">
-                <li><i class="fa-li fab fa-discord"></i><span class="ul-contact">Discord</span><br>Tanya Tsakunova
+                <li><i class="fa-li fab fa-discord"></i><span class="ul-contact">Discord</span><br>Tanya Tsakunova <br>
                     (tsakunova)#2426 </li>
                 <li><i class="fa-li fab fa-github"></i><span class="ul-contact">GitHub</span><br> <a
                         href="https://github.com/tsakunova" target="_blank">tsakunova</a></li>
@@ -115,19 +115,19 @@
           <h2>Code examples</h2>
 
           <pre class="code"><code>
-            function digital_root(n) {
-              let <var>sum</var> = 0;
-              let <var>digits</var> = [];
-              let <var>num</var> = n.toString();
-              for (let i = 0; i &lt; num.length; i++) {
-                digits.push(Number(num[i]));
-                sum += digits[i];
-              }
-              if (sum > 9) {
-                sum = digital_root(sum);
-              } 
-              return sum;
-            }
+    function digital_root(n) {
+        let <var>sum</var> = 0;
+        let <var>digits</var> = [];
+        let <var>num</var> = n.toString();
+        for (let i = 0; i &lt; num.length; i++) {
+            digits.push(Number(num[i]));
+            sum += digits[i];
+        }
+        if (sum > 9) {
+            sum = digital_root(sum);
+        } 
+        return sum;
+    }
           </code></pre>
       </section>
       <section class="sections">
