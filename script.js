@@ -6,5 +6,4 @@ burgerButton.addEventListener('click',function(){
 });
 burgerMenuList.addEventListener('click',function(){
   burgerMenu.classList.toggle("burger-menu_active");
-  
 });
